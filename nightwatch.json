@@ -10,7 +10,7 @@
       "start_process" : false,
       "server_path" : "",
       "log_path" : "",
-      "port" : 9515,
+      "port" : 4444,
       "cli_args" : {
         "webdriver.chrome.driver" : "",
         "webdriver.gecko.driver" : "",
@@ -20,7 +20,7 @@
   
     "test_settings" : {
       "default" : {
-        "launch_url" : "http://localhost:8080",
+        "launch_url" : "http://localhost",
         "selenium_port"  : 9515,
         "selenium_host"  : "localhost",
         "default_path_prefix" : "",
