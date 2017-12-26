@@ -20,7 +20,7 @@
   
     "test_settings" : {
       "default" : {
-        "launch_url" : "http://www.google.com",
+        "launch_url" : "https://localhost",
         "selenium_port" : 8080,
         "default_path_prefix" : "",
         "silent": true,
