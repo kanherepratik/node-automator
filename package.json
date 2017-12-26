@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test-e2e": "nightwatch"
+    "test-e2e": "DBUS_SESSION_BUS_ADDRESS=/dev/null nightwatch"
   },
   "author": "",
   "license": "ISC",
