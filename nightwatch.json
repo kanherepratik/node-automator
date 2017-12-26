@@ -20,10 +20,6 @@
           "enabled" : false,
           "path" : ""
         },
-        "request_timeout_options": {
-            "timeout": 300000,
-            "retry_attempts": 5
-        },
         "desiredCapabilities": {
             "browserName": "chrome",
             "chromeOptions" : {
