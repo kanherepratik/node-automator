@@ -20,8 +20,6 @@
   
     "test_settings" : {
       "default" : {
-        "selenium_port"  : 8080,
-        "selenium_host"  : "http://localhost",
         "default_path_prefix" : "",
         "silent": true,
         "screenshots" : {
