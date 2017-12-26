@@ -20,6 +20,10 @@
           "enabled" : false,
           "path" : ""
         },
+        "request_timeout_options": {
+        "timeout": 300000, //5 mins
+        "retry_attempts": 5  // 5 attempts after each timeout of the request
+        },
         "desiredCapabilities": {
             "browserName": "chrome",
             "chromeOptions" : {
