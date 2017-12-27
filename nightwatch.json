@@ -19,8 +19,7 @@
   
     "test_settings" : {
       "default" : {
-        "selenium_port" : 4444,
-        "selenium_host" : "https://jenki.herokuapp.com",
+        "launch_url" : "https://jenki.herokuapp.com",
         "default_path_prefix" : "",
         "silent": true,
         "screenshots" : {
