@@ -10,7 +10,6 @@
       "start_process" : false,
       "server_path" : "",
       "log_path" : "",
-      "port" : 9515,
       "cli_args" : {
         "webdriver.chrome.driver" : "",
         "webdriver.gecko.driver" : "",
@@ -32,7 +31,7 @@
         "desiredCapabilities": {
             "browserName": "chrome",
             "chromeOptions" : {
-              "args" : ["--no-sandbox", "start-fullscreen"]
+              "args" : ["--no-sandbox"]
             },
             "acceptSslCerts": true
           }

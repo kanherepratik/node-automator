@@ -1,4 +1,4 @@
-var chromedriver = require('chromedriver');
+/* var chromedriver = require('chromedriver');
 module.exports = {
   Demo : function (client) {
     client
@@ -13,4 +13,4 @@ module.exports = {
       .saveScreenshot('screenshots/google.png')
       .end()
   }
-};
+}; */

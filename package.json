@@ -4,11 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test-e2e": "nightwatch"
+    "test": "nightwatch",
+    "start": "npm run test"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "chromedriver": "^2.34.0"
+    "chromedriver": "^2.34.0",
+    "node-cron": "^1.2.1"
   }
 }
