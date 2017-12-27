@@ -7,33 +7,23 @@
     "globals_path" : "global.js",
   
     "selenium" : {
-      "start_process" : false,
-      "server_path" : "./node_modules/testarmada-magellan-nightwatch/node_modules/selenium-server/lib/runner/selenium-server-standalone-2.46.0.jar",
-      "log_path" : "",
-      "cli_args" : {
-        "webdriver.chrome.driver" : "",
-        "webdriver.gecko.driver" : "",
-        "webdriver.edge.driver" : ""
-      }
-    },
+    "start_process" : false,
+    "host" : "hub.testingbot.com",
+    "port" : 80
+  },
   
     "test_settings" : {
       "default" : {
-        "selenium_host" : "https://jenki.herokuapp.com",
-        "selenium_port" : 80,
-        "default_path_prefix" : "",
-        "silent": true,
-        "screenshots" : {
-          "enabled" : false,
-          "path" : ""
+       "desiredCapabilities": {
+        "browserName": "chrome",
+        "chromeOptions" : {
+          "args" : ["--no-sandbox"]
         },
-        "desiredCapabilities": {
-            "browserName": "chrome",
-            "chromeOptions" : {
-              "args" : ["--no-sandbox"]
-            },
-            "acceptSslCerts": true
-          }
+        "acceptSslCerts": true,
+        "api_key": "e652be948ec07f678557b6d31c75d25c",
+        "api_secret": "77211c64e44de4a9680ca0ba3c0a6b38"
+        }
+       }, 
       }
     }
   }
