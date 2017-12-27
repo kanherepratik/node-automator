@@ -14,6 +14,8 @@
   
     "test_settings" : {
         "default" : {
+           "selenium_port" : 80,
+            "selenium_Host" : "hub.testingbot.com",
            "desiredCapabilities": {
             "browserName": "chrome",
             "chromeOptions" : {
