@@ -8,7 +8,7 @@
   
     "selenium" : {
       "start_process" : false,
-      "server_path" : "",
+      "server_path" : "./node_modules/testarmada-magellan-nightwatch/node_modules/selenium-server/lib/runner/selenium-server-standalone-2.46.0.jar",
       "log_path" : "",
       "cli_args" : {
         "webdriver.chrome.driver" : "",
@@ -20,7 +20,8 @@
     "test_settings" : {
       "default" : {
         "launch_url" : "https://jenki.herokuapp.com",
-        "selenium_port" : 80,
+        "selenium_port" : 4444,
+        "selenium_host" : "https://jenki.herokuapp.com",
         "default_path_prefix" : "",
         "silent": true,
         "screenshots" : {
