@@ -8,14 +8,14 @@
   
     "selenium" : {
     "start_process" : false,
-    "host" : "hub.testingbot.com",
-    "port" : 80
+    "host" : "jenki.herokuapp.com",
+    "port" : 4444
   },
   
     "test_settings" : {
         "default" : {
-           "selenium_port" : 80,
-            "selenium_Host" : "hub.testingbot.com",
+           "selenium_port" : 4444,
+            "selenium_Host" : "jenki.herokuapp.com",
            "desiredCapabilities": {
             "browserName": "chrome",
             "chromeOptions" : {
