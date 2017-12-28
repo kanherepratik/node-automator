@@ -14,9 +14,9 @@ module.exports = {
         .url(URL)
         .assert.title('greytHR Login')
         .waitForElementVisible(USERNAME_SELECTOR, 3000)
-        .setValue(USERNAME_SELECTOR, 'GRE-31')
+        .setValue(USERNAME_SELECTOR, 'abc') // your username here
         .waitForElementVisible(PASSWORD_SELECTOR, 3000)
-        .setValue(PASSWORD_SELECTOR, 'amrut123#K')
+        .setValue(PASSWORD_SELECTOR, '****') // your password here
         .waitForElementVisible(BUTTON_SELECTOR, 3000)
         .click(BUTTON_SELECTOR)
         .pause(2000)
