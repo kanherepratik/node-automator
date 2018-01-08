@@ -7,22 +7,33 @@
     "globals_path" : "global.js",
   
     "selenium" : {
-    "start_process" : false,
-    "host" : "jenki.herokuapp.com",
-    "port" : 4444
-  },
+      "start_process" : false,
+      "server_path" : "",
+      "log_path" : "",
+      "cli_args" : {
+        "webdriver.chrome.driver" : "",
+        "webdriver.gecko.driver" : "",
+        "webdriver.edge.driver" : ""
+      }
+    },
   
     "test_settings" : {
-        "default" : {
-           "selenium_port" : 4444,
-            "selenium_Host" : "jenki.herokuapp.com",
-           "desiredCapabilities": {
+      "default" : {
+        "selenium_port"  : 9515,
+        "selenium_host"  : "localhost",
+        "default_path_prefix" : "",
+        "silent": true,
+        "screenshots" : {
+          "enabled" : false,
+          "path" : ""
+        },
+        "desiredCapabilities": {
             "browserName": "chrome",
             "chromeOptions" : {
-              "args" : ["--no-sandbox"]
+              "args" : ["--no-sandbox","headless"]
             },
             "acceptSslCerts": true
-            }
-          } 
+          }
+      }
     }
   }
