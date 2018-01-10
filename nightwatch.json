@@ -19,7 +19,6 @@
   
     "test_settings" : {
       "default" : {
-        "launch_url" : "https://ec2-13-59-17-254.us-east-2.compute.amazonaws.com",
         "selenium_port"  : 443,
         "selenium_host"  : "https://ec2-13-59-17-254.us-east-2.compute.amazonaws.com",
         "default_path_prefix" : "",
