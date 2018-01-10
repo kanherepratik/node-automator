@@ -20,7 +20,7 @@
     "test_settings" : {
       "default" : {
         "selenium_port"  : 9515,
-        "selenium_host"  : "localhost",
+        "selenium_host"  : "ec2-13-59-17-254.us-east-2.compute.amazonaws.com",
         "default_path_prefix" : "",
         "silent": true,
         "screenshots" : {
